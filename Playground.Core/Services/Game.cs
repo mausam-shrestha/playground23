@@ -18,7 +18,7 @@
         public void Run()
         {
             var inputNumbers = Enumerable.Range(_inputRange.minimum, _inputRange.maximum)
-                                         .Select(x => (uint)x);
+                                         .Select(x => x);
 
             inputNumbers.ToList().ForEach(currentInput =>
             {

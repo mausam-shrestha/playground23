@@ -2,7 +2,7 @@
 {
     public class GameLogger : IGameLogger
     {
-        public void Log(uint input, string output)
+        public void Log(int input, string output)
         {
             Console.WriteLine($"For {input} > Output is > {output}");
 

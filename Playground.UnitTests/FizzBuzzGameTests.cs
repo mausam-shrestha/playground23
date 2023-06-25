@@ -23,7 +23,7 @@ namespace Playground.UnitTests
         public void Given_Inputs_From_Player_When_It_Is_Valid_Then_Display_Expected_Output(string rawInput, string expectedOutput)
         {
             // Arrange
-            if (!uint.TryParse(rawInput, out uint playerInput))
+            if (!int.TryParse(rawInput, out int playerInput))
             {
                 Debug.WriteLine("Invalid test parameter.");
             }

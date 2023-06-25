@@ -2,6 +2,6 @@
 {
     public interface IGameLogger
     {
-        void Log(uint input, string output);
+        void Log(int input, string output);
     }
 }
