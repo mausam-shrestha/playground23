@@ -1,6 +1,6 @@
 ﻿namespace Playground.Core.Services
 {
-    public class Game
+    public class Game : IGame
     {
         private readonly IEnumerable<uint> _inputNumbers;
         private readonly IFizzBuzzGame _fizzBuzzGame;

@@ -2,6 +2,6 @@
 
 IFizzBuzzGame fizzBuzzGame = new FizzBuzzGame();
 
-Game game = new(fizzBuzzGame);
+IGame game = new Game(fizzBuzzGame);
 
 game.Execute();
