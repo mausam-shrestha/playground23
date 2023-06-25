@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Core", "Playground.Core\Playground.Core.csproj", "{20A4AF0C-1AD8-486F-9D17-8C6735AB5777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.UnitTests", "Playground.UnitTests\Playground.UnitTests.csproj", "{0DEB28C4-1522-426E-BF39-50029E55A502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20A4AF0C-1AD8-486F-9D17-8C6735AB5777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A4AF0C-1AD8-486F-9D17-8C6735AB5777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A4AF0C-1AD8-486F-9D17-8C6735AB5777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A4AF0C-1AD8-486F-9D17-8C6735AB5777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEB28C4-1522-426E-BF39-50029E55A502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEB28C4-1522-426E-BF39-50029E55A502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEB28C4-1522-426E-BF39-50029E55A502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEB28C4-1522-426E-BF39-50029E55A502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E0E790C-9BE0-401D-A996-B481997FA6DE}
+	EndGlobalSection
+EndGlobal
