@@ -2,7 +2,7 @@
 {
     public class FizzBuzzGame : IFizzBuzzGame
     {
-        public string GetOutput(uint input)
+        public string GetOutput(int input)
         {
             if (input % 15 == 0)
             {

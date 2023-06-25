@@ -2,6 +2,6 @@
 {
     public interface IFizzBuzzGame
     {
-        public string GetOutput(uint input);
+        public string GetOutput(int input);
     }
 }
