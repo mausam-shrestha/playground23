@@ -6,4 +6,4 @@ IGameLogger gameLogger = new GameLogger();
 
 IGame game = new Game(fizzBuzzGame, range, gameLogger);
 
-game.Execute();
+game.Run();
